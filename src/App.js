@@ -12,7 +12,7 @@ function App() {
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
-            <img src="IMG_1444.JPG" alt="" width="30" height="24"></img>
+        
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,13 +45,18 @@ function App() {
     </div><center><ImageSlider slides={SliderData} /></center></>
       <p></p>
       <center><button type="button" class="btn btn-dark">LAUNCHING SOON </button><p></p></center></>
+      <h4>JOIN THE WAITLIST</h4>
       
       <form>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">EMAIL ADDRESS</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
-            <div id="emailHelp" class="form-text">You will receive updates when we launch </div>
-            <center><button type="submit" class="btn btn-dark">Submit</button></center></div>
+            <div id="emailHelp" class="form-text">Join the waiting list to receive updates when we launch </div>
+            <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+    <label class="form-check-label" for="exampleCheck1">I consent to recieve emails regarding promotions for this brand </label>
+  </div>
+           <button type="submit" class="btn btn-dark">Submit</button></div>
  
       </form></>
   )

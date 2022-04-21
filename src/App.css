@@ -45,6 +45,9 @@ left: 40px;
 
 .App {
   font-weight: 900;
-  font-family: sans-serif;
+  font-family: EB Garamond;
   text-align: center;
+}
+.form {
+  font-family: EB Garamond;
 }
