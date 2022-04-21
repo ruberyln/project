@@ -8,8 +8,8 @@ left: 40px;
   align-items: center;
 }
 .image{
-  width: 1600px;
-  height: 800px;
+  width: 800px;
+  height: 600px;
   border-radius: 10px;
 }
 .right-arrow {
@@ -43,3 +43,8 @@ left: 40px;
   transform: scale (1.08);
 }
 
+.App {
+  font-weight: 900;
+  font-family: sans-serif;
+  text-align: center;
+}
