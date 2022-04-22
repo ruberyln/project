@@ -5,6 +5,7 @@ import ImageSlider from './components/ImageSlider';
 import { SliderData } from './components/SliderData';
 function App() {
   return (
+    
     <><><><div className="App">
       <header className="App-header">
         <center><h1><b> RUBERYLN COUTURE</b> </h1> </center>
@@ -43,22 +44,32 @@ function App() {
 
       </header>
     </div><center><ImageSlider slides={SliderData} /></center></>
+
       <p></p>
       <center><button type="button" class="btn btn-dark">LAUNCHING SOON </button><p></p></center></>
-      <h4>JOIN THE WAITLIST</h4>
+      <center><h2 class="font-Garamond">OUR MISSION</h2></center>
+      <p class="lh-lg">The Fashion world contributes to about 30% or more of the current environmental crisis, RUBERYLN as a brand 
+      is focused on sustainable fashion. we will achieve this by engaging in slow fashion, creating minimum statement and long lasting pieces
+  , making use of organic fabrics to create our pieces. We will also be recycling your used pieces you do not desire anymore which you have previously purchased from us.
+  We are working hard to make the world a better place and we believe you will join and support us in making our world Green again</p>
       
-      <form>
+      <center><h4 class="font-Garamond">JOIN THE WAITING LIST</h4></center>
+      
+
+      <form class="font-Garamond">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">EMAIL ADDRESS</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
             <div id="emailHelp" class="form-text">Join the waiting list to receive updates when we launch </div>
             <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+  <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
     <label class="form-check-label" for="exampleCheck1">I consent to recieve emails regarding promotions for this brand </label>
   </div>
            <button type="submit" class="btn btn-dark">Submit</button></div>
  
       </form></>
+
+      
   )
       
   
