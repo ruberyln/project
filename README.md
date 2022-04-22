@@ -1,7 +1,7 @@
 # Web Application for Ruberyln 
 This project is about creating a web page for a fashion brand by name Ruberyln Couture 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-##  project content 
+##  Project content 
 In the project you can get more contnents from (https://getbootstrap.com/docs/5.1/getting-started/introduction/) This will make putting in contents easier 
 ## About Project
 on the top of the page on the left is a menu bar, users can click to shop, rent-a-dress, or book an appointment , currenty only the shop link works as this was a test to ensure the links function in the code. 
